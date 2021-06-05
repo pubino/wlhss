@@ -1,0 +1,201 @@
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+#branding {
+  display: flex;
+  background-color: white;
+}
+#branding > .section {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+@media (prefers-color-scheme: dark) {
+  #branding {
+    background-color: black;
+  }
+}
+#branding .region-branding {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  #branding .region-branding {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#branding p {
+  margin: 0;
+}
+#branding .block .content {
+  margin-top: 0;
+}
+#branding p > a {
+  background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
+  background-size: 300px 45px;
+  text-indent: -999em;
+  min-width: 300px;
+  text-align: left;
+  padding: 1em 0 1em 1em;
+  display: block;
+}
+@media (prefers-color-scheme: dark) {
+  #branding p > a {
+    background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
+    background-size: 300px 45px;
+    text-indent: -999em;
+    min-width: 300px;
+    text-align: left;
+    padding: 1em 0 1em 1em;
+    display: block;
+  }
+}
+#branding .search-block-form {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+#branding div[id^=edit-actions] {
+  margin-right: 0.6em;
+}
+#branding .search-form .form-search {
+  float: none;
+  width: 200px;
+}
+
+#header {
+  background-color: initial;
+  background-image: initial;
+}
+#header .region-header {
+  padding: 0;
+}
+#header .region-header .block {
+  margin: 0;
+}
+#header .region-header .site-branding {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  #header .region-header {
+    display: flex;
+    justify-content: center;
+  }
+  #header .region-header .site-branding {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+#header .site-branding__text {
+  margin-bottom: 0;
+  padding: 0;
+}
+#header .site-branding__text a {
+  color: black;
+}
+#header .orfe-logo {
+  max-width: 450px;
+}
+#header .site-branding__logo {
+  margin: 0 1em 0 0;
+}
+@media only screen and (max-width: 600px) {
+  #header .site-branding__logo {
+    margin: 0;
+  }
+}
+#header .site-branding__name {
+  font-size: 2.25em;
+}
+
+.region-primary-menu .menu {
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+}
+.region-primary-menu .menu ul li {
+  display: inline;
+  vertical-align: middle;
+  margin: 0 0.25em 0 0.25em;
+}
+.region-primary-menu .menu a {
+  color: white;
+}
+.region-primary-menu .menu a.active {
+  color: #c9c9c9;
+}
+
+#menubar .region-menubar {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#menubar .block-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#menubar .block-menu ul {
+  text-align: center;
+}
+#menubar .block-menu ul.menu {
+  padding: 0;
+}
+#menubar .block-menu ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.5em;
+}
+#menubar .menu--main {
+  background-color: #525355;
+}
+#menubar .menu--main a {
+  color: white;
+  font-weight: normal;
+}
+#menubar .menu--main .content, #menubar .menu--administrative-menu .content {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.layout-main {
+  margin-top: 0;
+}
+
+.subbrand {
+  border-top: 20px solid #292929;
+}
+
+#subbrand .subbrand {
+  display: flex;
+}
+#subbrand p {
+  margin: 1em;
+}
+#subbrand p > a {
+  background: url("../images/small-orfe-logo.png") no-repeat 50% 50%;
+  background-size: 255px 70px;
+  text-indent: -999em;
+  min-width: 255px;
+  text-align: left;
+  padding: 1em;
+  display: block;
+  border-bottom: none;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+#triptych h2 {
+  font-size: 1.2em;
+}
+
+/*# sourceMappingURL=orfe.css.map */
