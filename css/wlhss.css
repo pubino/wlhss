@@ -75,6 +75,8 @@ body {
 }
 #header .region-header {
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 #header .region-header .block {
   margin: 0;
