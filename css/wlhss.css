@@ -107,6 +107,7 @@ body {
 }
 #header .site-branding__logo {
   margin: 0 1em 0 0;
+  max-width: 400px;
 }
 @media only screen and (max-width: 600px) {
   #header .site-branding__logo {
@@ -198,4 +199,4 @@ h1 {
   font-size: 1.2em;
 }
 
-/*# sourceMappingURL=orfe.css.map */
+/*# sourceMappingURL=wlhss.css.map */
