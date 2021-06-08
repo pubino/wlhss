@@ -11,16 +11,14 @@ body {
 
 #branding {
 
+
 	>.section {
 		max-width: 1290px;
 		margin: 0 auto;
 	}
 
 	display: flex;
-	background-color: white;
-	@media (prefers-color-scheme: dark) {
 	background-color: black;
-	}
 	
 	.region-branding {
 	display: flex;
@@ -42,16 +40,7 @@ body {
 		margin-top: 0;
 	}
 	p > a {
-		@media (prefers-color-scheme: dark) {
-			background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
-		background-size: 300px 45px;
-		text-indent: -999em;
-		min-width: 300px;
-		text-align: left;
-		padding: 1em 0 1em 1em;
-		display: block;
-	}
-		background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
+		background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
 		background-size: 300px 45px;
 		text-indent: -999em;
 		min-width: 300px;

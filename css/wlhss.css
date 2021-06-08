@@ -5,16 +5,11 @@ body {
 
 #branding {
   display: flex;
-  background-color: white;
+  background-color: black;
 }
 #branding > .section {
   max-width: 1290px;
   margin: 0 auto;
-}
-@media (prefers-color-scheme: dark) {
-  #branding {
-    background-color: black;
-  }
 }
 #branding .region-branding {
   display: flex;
@@ -37,24 +32,13 @@ body {
   margin-top: 0;
 }
 #branding p > a {
-  background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
+  background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
   background-size: 300px 45px;
   text-indent: -999em;
   min-width: 300px;
   text-align: left;
   padding: 1em 0 1em 1em;
   display: block;
-}
-@media (prefers-color-scheme: dark) {
-  #branding p > a {
-    background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
-    background-size: 300px 45px;
-    text-indent: -999em;
-    min-width: 300px;
-    text-align: left;
-    padding: 1em 0 1em 1em;
-    display: block;
-  }
 }
 #branding .search-block-form {
   display: flex;
