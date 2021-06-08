@@ -165,10 +165,8 @@ body {
   margin: 0.5em 0 0.5em 0;
 }
 
-@media only screen and (max-width: 851px) {
-  .layout-container {
-    max-width: 1024px;
-  }
+.layout-container {
+  max-width: 1024px;
 }
 
 .layout-main {
