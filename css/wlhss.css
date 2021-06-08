@@ -149,6 +149,12 @@ a, a:hover {
   margin: 0.5em 0 0.5em 0;
 }
 
+@media (min-width: 461px) and (max-width: 900px) {
+  .region-primary-menu .menu-item, body:not(:target) .region-primary-menu .menu-item {
+    float: none;
+  }
+}
+
 .layout-container {
   max-width: 1024px;
 }
