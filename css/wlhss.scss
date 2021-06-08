@@ -240,6 +240,8 @@ font-size: 1.2em;
 
 #block-wlhss-main-menu {
 	.menu {
+		display: flex;
+		justify-content: center;
 	}
 
 }
