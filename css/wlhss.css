@@ -3,6 +3,10 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+a {
+  color: red;
+}
+
 #branding {
   display: flex;
   background-color: black;
@@ -113,10 +117,6 @@ body {
   font-weight: bold;
   font-size: 1.3em;
 }
-.region-primary-menu .menu a.active {
-  color: #c9c9c9;
-}
-
 #menubar .region-menubar {
   display: flex;
   flex-flow: column nowrap;
@@ -205,6 +205,11 @@ h1 {
 
 .registration-btn:hover {
   text-decoration: none;
+}
+
+.main-content h2 {
+  margin-bottom: 1em;
+  font-size: 1.75em;
 }
 
 /*# sourceMappingURL=wlhss.css.map */

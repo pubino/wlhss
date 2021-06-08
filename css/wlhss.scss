@@ -9,6 +9,11 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+a{
+	color: red;
+}
+
+
 #branding {
 
 
@@ -141,7 +146,6 @@ body {
 		font-size: 1.3em;
 	}
 	a.active {
-		color: #c9c9c9;
 	}
 }
 
@@ -247,4 +251,9 @@ font-size: 1.2em;
 
 .registration-btn:hover {
   text-decoration: none;
+}
+
+.main-content h2 {
+	margin-bottom: 1em;
+	font-size: 1.75em;
 }
