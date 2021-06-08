@@ -227,3 +227,24 @@ font-size: 1.2em;
 	}
 
 }
+
+.registration-btn {
+  background: #FBF853;
+  background-image: -webkit-linear-gradient(top, #FBF853, #ECA53B);
+  background-image: -moz-linear-gradient(top, #FBF853, #ECA53B);
+  background-image: -ms-linear-gradient(top, #FBF853, #ECA53B);
+  background-image: -o-linear-gradient(top, #FBF853, #ECA53B);
+  background-image: linear-gradient(to bottom, #FBF853, #ECA53B);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 26px;
+  padding: 12px 18px 10px 18px;
+  text-decoration: none;
+}
+
+.registration-btn:hover {
+  text-decoration: none;
+}
