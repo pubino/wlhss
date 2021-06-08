@@ -80,6 +80,7 @@ body {
 }
 #header .region-header .block {
   margin: 0;
+  line-height: 0;
 }
 @media only screen and (max-width: 851px) {
   #header .region-header {
@@ -124,7 +125,9 @@ body {
   margin: 0 0.25em 0 0.25em;
 }
 .region-primary-menu .menu a {
-  color: white;
+  color: #030303;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 .region-primary-menu .menu a.active {
   color: #c9c9c9;
@@ -160,6 +163,12 @@ body {
 }
 #menubar .menu--main .content, #menubar .menu--administrative-menu .content {
   margin: 0.5em 0 0.5em 0;
+}
+
+@media only screen and (max-width: 851px) {
+  .layout-container {
+    max-width: 1024px;
+  }
 }
 
 .layout-main {

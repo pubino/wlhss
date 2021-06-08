@@ -87,6 +87,7 @@ body {
 		justify-content: center;
 		.block {
 			margin: 0;
+			line-height:0;
 		}
 		.site-branding {
 		}	
@@ -146,7 +147,9 @@ body {
 		margin: 0 0.25em 0 0.25em;
 	}
 	a {
-		color: white;
+		color: rgb(3, 3, 3);
+		font-weight: bold;
+		font-size: 1.3em;
 	}
 	a.active {
 		color: #c9c9c9;
@@ -188,6 +191,12 @@ body {
 		.content {
 			margin: 0.5em 0 0.5em 0;
 		}
+	}
+}
+
+.layout-container{
+	@media only screen and (max-width: 851px) {
+		max-width: 1024px;
 	}
 }
 
