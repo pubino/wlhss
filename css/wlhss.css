@@ -3,8 +3,8 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-a {
-  color: red;
+a, a:hover {
+  color: #756d00;
 }
 
 #branding {
